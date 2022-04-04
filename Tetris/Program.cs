@@ -25,7 +25,7 @@ namespace TetrisGame
                 // where to start reading from the file
                 inputFile.BaseStream.Seek(0, SeekOrigin.Begin);
 
-                String[] inputList;
+                String[] inputArray;
                 string str = inputFile.ReadLine();
 
                 // To read the whole file line by line
@@ -33,11 +33,11 @@ namespace TetrisGame
                 while (str != null)
                 {
                     // splitting one line
-                    inputList = str.Split(',');
+                    inputArray = str.Split(',');
 
                     // writting output
                     ITetrisEngine tetrisEngine = new TetrisBaseEngine();
-                    string append = await tetrisEngine.Play(inputList);
+                    string append = await tetrisEngine.Play(inputArray);
                     outputFile.WriteLine(append);
 
                     // The next line...
