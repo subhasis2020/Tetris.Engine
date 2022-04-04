@@ -36,8 +36,8 @@ namespace TetrisGame
                     inputList = str.Split(',');
 
                     // writting output
-                    ITetrisEngine terisEngine = new TetrisBaseEngine();
-                    string append = await terisEngine.Play(inputList);
+                    ITetrisEngine tetrisEngine = new TetrisBaseEngine();
+                    string append = await tetrisEngine.Play(inputList);
                     outputFile.WriteLine(append);
 
                     // The next line...
