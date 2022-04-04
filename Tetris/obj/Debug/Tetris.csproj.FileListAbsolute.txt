@@ -1,0 +1,8 @@
+D:\Out.Of.The.Box\TetrisSolution\Tetris.Solution\Tetris\bin\Debug\Tetris.exe.config
+D:\Out.Of.The.Box\TetrisSolution\Tetris.Solution\Tetris\bin\Debug\Tetris.exe
+D:\Out.Of.The.Box\TetrisSolution\Tetris.Solution\Tetris\bin\Debug\Tetris.pdb
+D:\Out.Of.The.Box\TetrisSolution\Tetris.Solution\Tetris\obj\Debug\Tetris.csproj.AssemblyReference.cache
+D:\Out.Of.The.Box\TetrisSolution\Tetris.Solution\Tetris\obj\Debug\Tetris.csproj.SuggestedBindingRedirects.cache
+D:\Out.Of.The.Box\TetrisSolution\Tetris.Solution\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
+D:\Out.Of.The.Box\TetrisSolution\Tetris.Solution\Tetris\obj\Debug\Tetris.exe
+D:\Out.Of.The.Box\TetrisSolution\Tetris.Solution\Tetris\obj\Debug\Tetris.pdb
