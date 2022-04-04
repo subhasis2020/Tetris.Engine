@@ -11,6 +11,10 @@ namespace Tetris.Test
         private string[] _inputDataScanrio_One;
         private string[] _inputDataScanrio_Two;
         private string[] _inputDataScanrio_Three;
+        
+        /// <summary>
+        /// Constructor is intializing test data.
+        /// </summary>
         public TetrisEnginTest() => Setup();
 
         /// <summary>
@@ -24,7 +28,7 @@ namespace Tetris.Test
         }
 
         /// <summary>
-        /// A line in the input file contains “I0,I4,Q8”
+        /// A line in the input file contains â€œI0,I4,Q8â€
         /// </summary>
         /// <returns></returns>
         [Fact]
@@ -41,7 +45,7 @@ namespace Tetris.Test
         }
 
         /// <summary>
-        /// A line in the input file contains “T1,Z3,I4”.
+        /// A line in the input file contains â€œT1,Z3,I4â€.
         /// </summary>
         /// <returns></returns>
         [Fact]
@@ -58,7 +62,7 @@ namespace Tetris.Test
         }
 
         /// <summary>
-        /// A line in the input file contains “Q0,I2,I6,I0,I6,I6,Q2,Q4”.
+        /// A line in the input file contains â€œQ0,I2,I6,I0,I6,I6,Q2,Q4â€.
         /// </summary>
         /// <returns></returns>
         [Fact]
